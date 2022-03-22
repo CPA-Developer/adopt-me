@@ -1,7 +1,6 @@
 {
   "name": "adopt-me",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +10,14 @@
   "license": "ISC",
   "devDependencies": {
     "prettier": "^2.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CPA-Developer/adopt-me.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CPA-Developer/adopt-me/issues"
+  },
+  "homepage": "https://github.com/CPA-Developer/adopt-me#readme",
+  "description": ""
 }
