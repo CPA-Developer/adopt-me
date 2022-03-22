@@ -1,5 +1,5 @@
-/* global React */
-/* global ReactDOM */
+// /* global React */
+// /* global ReactDOM */ to remove the syntax error caused by eslint
 
 const Pet = (props) => {
   return React.createElement("div", {}, [
