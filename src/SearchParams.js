@@ -19,6 +19,8 @@ const SearchParams = () => {
   useEffect(() => {
     requestPets();
   }, []); //eslint-disable-line react-hooks/exhaustive-deps
+  //[] : run only one time when starts
+  //if are giving any attribute it will rerender again
 
   //      useEffect(()=>{
   //   const timer= setTimeout(() =>alert("hi"),300);
@@ -29,7 +31,7 @@ const SearchParams = () => {
       `http://pets-v2.dev-apis.com/pets?animal=${animal}&location=${location}&breed=${breed}`
     );
     const json = await res.json();
-    console.log(json);
+    // console.log(json);
     setPets(json.pets);
   }
 
