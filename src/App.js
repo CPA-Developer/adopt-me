@@ -7,7 +7,7 @@ import { StrictMode, useState } from "react";
 import SearchParams from "./SearchParams.js";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Details from "./Details";
-import ThemeContext from "./ThemeContect.js";
+import ThemeContext from "./ThemeContext.js";
 
 // const App = () => {
 //   return React.createElement("div", {}, [
